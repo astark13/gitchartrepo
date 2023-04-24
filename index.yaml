@@ -3,7 +3,7 @@ entries:
   gitchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-24T12:05:24.063750358+03:00"
+    created: "2023-04-24T15:33:30.664710118+03:00"
     description: A Helm chart for Kubernetes
     digest: 056494adf1b8c33060d8410f60db4808ecc4aeda5708f51bec543f9f4de978e5
     name: gitchart
@@ -11,4 +11,19 @@ entries:
     urls:
     - gitchart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-24T12:05:24.062496973+03:00"
+  secondchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-24T15:33:30.667516751+03:00"
+    dependencies:
+    - name: tomcat
+      repository: http://charts.bitnami.com/bitnami
+      version: 10.6.3
+    description: A Helm chart for Kubernetes
+    digest: c91f59b37a6fb6a21df3f215210febaccaff8d5c12d0517723ed668b5bf8a0d7
+    name: secondchart
+    type: application
+    urls:
+    - secondchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-24T15:33:30.663626979+03:00"
